@@ -12,7 +12,8 @@ export default function LogoutButton() {
         const { error } = await supabase.auth.signOut()
 
         if (!error) {
-            router.push('/welcome')
+            router.refresh()
+            router.push('/login')
         }
     }
 

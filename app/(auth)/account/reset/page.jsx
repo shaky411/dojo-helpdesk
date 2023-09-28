@@ -4,7 +4,7 @@ import { useState } from "react"
 
 export default function Reset() {
 
-    const [email, setEmail] = useState(null)
+    const [email, setEmail] = useState('')
 
     const handleSubmit = async (e) => {
         e.preventDefault()

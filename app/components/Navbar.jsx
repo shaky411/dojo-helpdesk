@@ -14,8 +14,7 @@ export default function Navbar({ user }) {
              />
           <Link href="/"><h1>Dojo Helpdesk</h1></Link>
           <Link href="/">Dashboard</Link>
-          <Link href="/Tickets">Tickets</Link>
-          <Link href="/account/Reset" className='mr-auto'>Account</Link>
+          <Link href="/Tickets" className='mr-auto'>Tickets</Link>
 
           {user && <span className='text-indigo-500'>Hello: {user.email}</span>}
           <LogoutButton />
