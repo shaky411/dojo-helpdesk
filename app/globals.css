@@ -71,7 +71,7 @@ body {
       min-w-fit w-1/4;
   }
   form label {
-    @apply block;
+    @apply w-full;
   }
   form input,
   form textarea,

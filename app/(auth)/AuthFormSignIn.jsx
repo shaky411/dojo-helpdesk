@@ -36,7 +36,9 @@ export default function AuthForm({ handleSubmit }) {
                 value={password}
                 required 
                  />
+                 <Link href="/account/reset" className="text-sm text-slate-400">Forgotten Password</Link>
             </label>
+            <button className="bg-indigo-500 hover:bg-indigo-600 shadow-md duration-300 text-slate-200 mt-5 w-full rounded-full">Log In</button>
             <Link href="/signup" className="w-full"><button className="mt-5 w-full rounded-full bg-green-400 hover:bg-green-500 shadow-md duration-300 text-gray-700">Sign Up</button></Link>
         </form>
     )

@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import { createClientComponentClient } from "@supabase/auth-helpers-nextjs"
 
 // components
-import AuthForm from "../AuthForm"
+import AuthFormSignIn from '../AuthFormSignIn' 
 
 export default function Login() {
   const router = useRouter()
@@ -32,9 +32,9 @@ export default function Login() {
   
   return (
     <main>
-      <h2 className="text-center">Login</h2>
+      <h2 className="text-center">Log In</h2>
 
-      <AuthForm handleSubmit={handleSubmit} />
+      <AuthFormSignIn handleSubmit={handleSubmit} />
 
       {error && (
         <div className="error">{error}</div>
