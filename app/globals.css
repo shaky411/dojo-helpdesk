@@ -8,7 +8,7 @@ body {
     @apply text-gray-500 m-8;
   }
   h1, h2 {
-    @apply font-bold text-primary text-lg;
+    @apply font-bold text-slate-500 text-lg;
   }
   main {
     @apply max-w-5xl my-12 mx-auto px-8;
@@ -51,7 +51,7 @@ body {
     @apply bg-opacity-90;
   }
   .btn-primary {
-    @apply bg-primary text-white;
+    @apply bg-teal-500 text-white;
   }
   .btn-secondary {
     @apply bg-gray-200 text-gray-900;
@@ -127,10 +127,10 @@ body {
       text-xs font-semibold;
   }
   .pill.high {
-    @apply bg-red-300 text-red-600;
+    @apply bg-rose-200 text-rose-500;
   }
   .pill.medium {
-    @apply bg-blue-300 text-blue-600;
+    @apply bg-cyan-300 text-cyan-600;
   }
   .pill.low {
     @apply bg-emerald-300 text-emerald-600;

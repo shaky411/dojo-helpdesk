@@ -2,6 +2,7 @@
 
 import { useRouter } from "next/navigation"
 import { useState } from "react"
+import Link from "next/link"
 
 export default function CreateForm() {
   const router = useRouter()
@@ -65,12 +66,18 @@ export default function CreateForm() {
         </select>
       </label>
       <button 
-        className="btn-primary" 
+        className="btn-primary w-full rounded-full mb-5" 
         disabled={isLoading}
       >
       {isLoading && <span>Adding...</span>}
       {!isLoading && <span>Add Ticket</span>}
     </button>
+    <Link
+        className="text-sm text-blue-500 hover:text-blue-900"
+        href="/Tickets"
+      >
+        &lt; Go Back
+      </Link>
     </form>
   )
 }

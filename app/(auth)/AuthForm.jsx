@@ -39,6 +39,13 @@ export default function AuthForm({ handleSubmit }) {
             </label>
             {/* <Link href="/signup" className="w-full"><button className="mt-5 w-full rounded-full bg-green-400 hover:bg-green-500 shadow-md duration-300 text-gray-700">Sign Up</button></Link> */}
             <button className="bg-indigo-500 hover:bg-indigo-600 shadow-md duration-300 text-slate-200 mt-5 w-full rounded-full">Sign Up</button>
+            <Link
+        className="text-[12px] text-blue-500 hover:text-blue-900 mr-auto mt-5"
+        href="/login"
+      >
+        &lt; Go Back
+      </Link>
+            
         </form>
     )
 }

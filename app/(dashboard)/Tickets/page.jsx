@@ -13,11 +13,11 @@ export default function Tickets() {
       <main className="">
         <nav>
           <div>
-            <h2>Tickets</h2>
-            <p><small>Currently open tickets</small></p>
+            <h2>Feature Requests</h2>
+            <p><small>Currently open requests</small></p>
           </div>
           <Link href="/Tickets/create" className="ml-auto">
-            <button className="btn-primary">New Ticket</button>
+            <button className="btn-primary">New Request</button>
           </Link>
         </nav>
 

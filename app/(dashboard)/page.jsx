@@ -3,12 +3,14 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className="">
-      <h2>Dashboard</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam natus provident. Atque corrupti aut ea ipsam quae voluptas, molestias ad libero consectetur in minus reprehenderit sit eveniet cumque, laboriosam non tempora rem architecto soluta dolorem est sunt voluptatem minima. Explicabo aut asperiores repudiandae hic minima illum enim cum tenetur?</p>
 
+      <div className='bg-slate-400 p-10 rounded text-slate-100 shadow'>
+      <h2 className='mb-2 text-slate-100 text-xl'>Welcome</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ipsam natus provident. Atque corrupti aut ea ipsam quae voluptas, molestias ad libero consectetur in minus reprehenderit sit eveniet cumque, laboriosam non tempora rem architecto soluta dolorem est sunt voluptatem minima. Explicabo aut asperiores repudiandae hic minima illum enim cum tenetur?</p>
+      </div>
       <div className='flex justify-center my-8'>
         <Link href="/Tickets">
-          <button className='bg-indigo-500 text-slate-100 rounded-full transition duration-300'>View Tickets</button>
+          <button className='bg-indigo-500 text-slate-100 rounded-full transition duration-300'>View Requests</button>
         </Link>
       </div>
 

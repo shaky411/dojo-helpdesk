@@ -29,7 +29,7 @@ export default function DeleteIcon({ id }) {
 
   return (
     <button 
-      className="btn-primary" 
+      className="bg-rose-500 hover:bg-rose-600 hover:shadow duration-300 text-slate-100 rounded-full" 
       onClick={handleClick}
       disabled={isLoading}
     >
@@ -42,7 +42,7 @@ export default function DeleteIcon({ id }) {
       {!isLoading && (
         <>
           <TiDelete />
-          Delete Ticket
+          Delete Request
         </>
       )}
     </button>

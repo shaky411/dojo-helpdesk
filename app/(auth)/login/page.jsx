@@ -21,7 +21,8 @@ export default function Login() {
       password
     })
     if (error) {
-      setError(error.message)
+      // setError(error.message)
+      alert("Incorrect details")
     }
     if (!error) {
       router.push('/')
